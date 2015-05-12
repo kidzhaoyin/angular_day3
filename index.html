@@ -7,6 +7,7 @@
         <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
     <body ng-app="flashCards">
+	<div ng-include =" 'templates/statistics.html'"></div>
 	<div ng-controller="StatsController" id="statistics">
 
 	    <div id="scoreboard">
@@ -40,5 +41,8 @@
     	<script src="angular.js"></script>
     	<script src="app.js"></script>
     	<script src="main.controller.js"></script>
+	<script src="js/directives/loader/loader.js"></script>
+	<script src="js/directies/flashcard/flashcard.js"></script>
+	<script src="js/directives/border-hover/border-hover.js"></script>
     </body>
 </html>
